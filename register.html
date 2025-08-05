@@ -11,7 +11,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <title>Login</title>
+  <title>Register</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,14 +20,19 @@
   <div class="container">
 
     <div class="left">
-      <h1>Minha conta</h1>
+      <h1>Nova conta</h1>
       <form>
+        <input placeholder="Nome completo" type="text">
         <input placeholder="Digite seu email" type="email">
         <input placeholder="Digite sua senha" type="password">
+        <label for="checkbox">
+          <input type="checkbox" id="checkbox" name="checkbox">
+          Concordo com os termos
+        </label>
         <input type="submit" value="Acessar">
       </form>
       <img src="assets/code.svg" alt="">
-      <p><strong>Novo por aqui?</strong><a href="register.html">Cadastre-se.</a></p>
+      <p><strong>Já possui uma conta?</strong><a href="index.html">Faça login.</a></p>
     </div>
 
     <div class="right">
